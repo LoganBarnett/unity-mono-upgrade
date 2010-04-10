@@ -1,0 +1,19 @@
+All I have so far is the Mac version. Feel free to post something for Windows.
+
+1) Copy the .sh file to somewhere on your PATH. ~/bin is on my path, so we'll use that.
+
+cp unity-mono-update.sh ~/bin/unity-mono-update.sh
+
+2) Give it executable permission
+
+chmod +x ~/bin/unity-mono-update.sh
+
+3) Kick it off to upgrade
+
+sudo unity-mono-update.sh
+
+4) ???
+
+5) Profit!
+
+When you upgrade Mono, even for minor versions, just run the script again. 
